@@ -14,7 +14,7 @@ jobs:
       - name: Greet the user 
         run: echo "Hello world"
         shell: bash 
-      - run: echo "Hello world from ${{ github.actor }}
+      - run: echo "Hello world from ${{ github.actor }}"
       - name: Checkout
         uses: actions/checkout@v4.1.0
       - run: tree
